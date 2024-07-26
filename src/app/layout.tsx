@@ -16,8 +16,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <header className="text-center bg-blue-100">IA Recipe book</header>
+      <body className={inter.className + " bg-secondary"}>
+        <header className="text-center bg-primary text-white">IA Recipe book</header>
         <main className="flex">{children}</main>
       </body>
     </html>
